@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+</head>
+<body>
+<h1>My Contact Details</h1>
+    <p>Name</p>
+    <p>Adresse</p><br>
+    <p>Telefon</p>
+    <p>E-Mail</p> <br>
+    <hr><br>
+    <!-- enctype=text/plein, damit keine merkwürdigen Zahlen etc kommen -->
+    <form class="" action="mailto:kontaktieren@email.de" method="post" enctype="text/plain">
+        <label>Your Name:</label>
+        <input type="text" name="yourname" value=""><br>
+        <label>Your Email:</label>
+        <input type="email" name="youremail" value=""><br>
+        <label>Your Message:</label><br>
+        <textarea name="yourmessage" rows="10" cols="30"></textarea><br>
+        <input type="submit" name="">
+       </form><br><br> 
+    <hr><br>
+    <!-- andere, Neue form? 
+     <form action="" method="get" class="form-example">
+        <div class="form-example">
+          <label for="name">Enter your name: </label>
+          <input type="text" name="name" id="name" required>
+        </div>
+        <div class="form-example">
+          <label for="email">Enter your email: </label>
+          <input type="email" name="email" id="email" required>
+        </div>
+        <div class="form-example">
+          <input type="submit" value="Subscribe!">
+        </div>
+      </form>
+    -->
+    
+</body>
+</html>
